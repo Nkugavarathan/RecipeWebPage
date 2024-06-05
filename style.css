@@ -1,0 +1,215 @@
+* {
+    padding: 0;
+    margin: 10px;
+  }
+
+  body {
+    background-color: rgba(199, 134, 134, 0.43);
+  }
+
+  .container {
+  
+    background-color: rgba(255, 255, 255, 0.855);
+    width: 650px;
+    border-radius: 10px;
+    margin: auto;
+    color: rgb(82, 82, 82);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #omeletteimg {
+    border-radius: 10px;
+    height: 200px;
+    width: 500px;
+  }
+
+  .heading {
+    font-size: 40px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    margin-top: 20px;
+  }
+
+  .description {
+    font-family: "Young Serif", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(82, 82, 82);
+  }
+
+  .preparationtime {
+    background-color: rgba(165, 42, 42, 0.092);
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  #preparationtimeheading {
+    color: rgb(97, 4, 41);
+    font-size: 20px;
+  }
+
+  .preparationtime ul {
+    padding-left: 20px;
+  }
+
+  #point {
+    color: rgb(13, 13, 13);
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  li b {
+    color: rgb(70, 70, 70);
+  }
+
+  #ingredientsheading {
+    font-size: 20px;
+    color: rgb(192, 13, 13);
+    font-family: "Young Serif", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .ingredients ul {
+    padding-left: 20px;
+  }
+
+  #instructionheading {
+    font-size: 20px;
+    color: rgb(192, 13, 13);
+    font-family: "Young Serif", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .instruction ol {
+    margin: auto;
+  }
+
+  #nutritionheading {
+    font-size: 20px;
+    color: rgb(192, 13, 13);
+    font-family: "Young Serif", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  ol {
+    color: rgb(192, 13, 13);
+  }
+
+  ol li {
+    text-align: left;
+  }
+
+  li span {
+    color: rgb(82, 82, 82);
+  }
+
+  span {
+    margin: 0;
+  }
+
+  td span {
+    color: brown;
+    margin-left: 60px;
+    font-weight: bold;
+  }
+  td{
+    padding:10px;
+  }
+  table {
+    margin-left: 25px;
+    border-collapse: collapse;
+  }
+
+  td {
+    border-bottom: 1px solid rgb(113, 113, 113);
+  }
+
+  table tr:last-of-type td {
+    border-bottom: none;
+  }
+
+  @media screen and (max-width:800px) {
+    .container {
+ 
+      justify-content: center;
+      align-items: center;
+      width: 550px;
+    }
+
+    #omeletteimg {
+      width: 400px;
+    }
+    
+  .img {
+ 
+    justify-content: center;
+    align-items: center;
+  }
+
+  }
+
+  @media screen and (max-width:650px) {
+    .container {
+     
+      justify-content: center;
+      align-items: center;
+      width: 400px;
+    }
+
+    #omeletteimg {
+      width: 350px;
+    }
+    
+  .img {
+  
+    justify-content: center;
+    align-items: center;
+  }
+
+  }
+
+  @media screen and (max-width:500px) {
+ 
+
+    .container {
+   
+      justify-content: center;
+      align-items: center;
+      width: 350px;
+    }
+
+    #omeletteimg {
+      width: 300px;
+    }
+    ul,ol li{
+      font-size: 16px;
+    }
+    
+  .img {
+ 
+    justify-content: center;
+    align-items: center;
+  }
+
+  }
